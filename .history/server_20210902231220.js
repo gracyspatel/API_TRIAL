@@ -4,7 +4,7 @@ var express = require('express'),
  
 // request handlers
 app.get('/', (req, res) => {
-    res.send('Parth your trial');
+    res.send('Welcome to the first Node.js Tutorial! - Clue Mediator');
 });
  
 app.listen(port, () => {
